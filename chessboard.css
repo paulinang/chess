@@ -54,7 +54,17 @@
     background-color: rgb(150,150,150);
 }
 
+.chess-row.odd>#selected.chess-column.odd,
+.chess-row.even>#selected.chess-column.even {
+    background-color: rgb(50,120,90);
+}
+
 .chess-row.even>.chess-column.odd,
 .chess-row.odd>.chess-column.even {
-    background-color: rgba(255,255,255,1);
+    background-color: rgb(255,255,255);
+}
+
+.chess-row.even>#selected.chess-column.odd,
+.chess-row.odd>#selected.chess-column.even {
+    background-color: rgb(150,200,150);
 }

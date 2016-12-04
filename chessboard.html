@@ -109,20 +109,7 @@
         </div>
       </div>
     </div>
-    <script>
-    $('.square').on('click', function(evt) {
-      var square = evt.target;
-      var squareId = square.dataset.chessColumn + square.parentElement.dataset.chessRow;
-      // alert('Clicked ' + squareId);
-      // debugger;
-      if ($(square).css('background-color') == "rgb(100, 100, 100)") {
-        $(square).css('background-color', "rgb(150, 150, 150)");
-      }
-      else if ($(square).css('background-color') == "rgb(150, 150, 150)") {
-        $(square).css('background-color', "rgb(100, 100, 100)");
-      }
-    });
-    </script>
+    <script src='chessboard.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
