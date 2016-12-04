@@ -68,3 +68,12 @@
 .chess-row.odd>#selected.chess-column.even {
     background-color: rgb(150,200,150);
 }
+
+.chess-piece {
+    width: 6vw;
+    height: 6vw;
+    line-height: 6vw;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+}

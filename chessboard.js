@@ -18,3 +18,9 @@ $('.square').on('click', function(evt) {
     }
     // debugger;
   });
+
+function setupPieces() {
+  $('#row-7>.square').html('<span class=\'chess-piece pawn\'>P</span>');
+}
+
+$('#new-game').on('click', setupPieces);
