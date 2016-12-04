@@ -8,97 +8,95 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <div id='play-field'>
       <div id='chessboard'>
-        <div class='row chess-row even' id='chess-row-8'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>
+        <div class='row chess-row even' id='chess-row-8' data-chess-row='8'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>
         </div>
-        <div class='row chess-row odd'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row odd' data-chess-row='7'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
-        <div class='row chess-row even'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row even' data-chess-row='6'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
-        <div class='row chess-row odd'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div> 
+        <div class='row chess-row odd' data-chess-row='5'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>
         </div>
-        <div class='row chess-row even'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row even' data-chess-row='4'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
-        <div class='row chess-row odd'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row odd' data-chess-row='3'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
-        <div class='row chess-row even'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row even' data-chess-row='2'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
-        <div class='row chess-row 1 odd'>
-          <div class='square chess-column a odd'></div>
-          <div class='square chess-column b even'></div>
-          <div class='square chess-column c odd'></div>
-          <div class='square chess-column d even'></div>
-          <div class='square chess-column e odd'></div>
-          <div class='square chess-column f even'></div>
-          <div class='square chess-column g odd'></div>
-          <div class='square chess-column h even'></div>       
+        <div class='row chess-row 1 odd' data-chess-row='1'>
+          <div class='square chess-column a odd' data-chess-column='a'></div>
+          <div class='square chess-column b even' data-chess-column='b'></div>
+          <div class='square chess-column c odd' data-chess-column='c'></div>
+          <div class='square chess-column d even' data-chess-column='d'></div>
+          <div class='square chess-column e odd' data-chess-column='e'></div>
+          <div class='square chess-column f even' data-chess-column='f'></div>
+          <div class='square chess-column g odd' data-chess-column='g'></div>
+          <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
       </div>
     </div>
+    <script>
+    $('.square').on('click', function(evt) {
+      var square = evt.target;
+      var squareId = square.dataset.chessColumn + square.parentElement.dataset.chessRow;
+      alert('Clicked ' + squareId);
+    });
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
-<!-- 
-        <div class='col-xs-1 col-xs-offset-1 square chess-column a'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column b'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column c'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column d'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column e'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column f'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column g'></div>
-        <div class='col-xs-1 col-xs-offset-1 square chess-column h'></div> -->

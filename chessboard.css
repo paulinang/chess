@@ -7,7 +7,6 @@
     width: 64vw;
     height: 64vw;
     margin: 0px;
-
 }
 
 .chess-row {
@@ -15,6 +14,7 @@
     height: 8vw;
     margin: 0px;
 }
+
 .square {
     width: 8vw;
     height: 8vw;
