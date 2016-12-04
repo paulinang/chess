@@ -1,0 +1,41 @@
+#play-field {
+    width: 80vw;
+    height: 80vw;
+    margin: 50px;
+}
+#chessboard {
+    width: 64vw;
+    height: 64vw;
+    margin: 0px;
+
+}
+
+.chess-row {
+    width: 64vw;
+    height: 8vw;
+    margin: 0px;
+}
+.square {
+    width: 8vw;
+    height: 8vw;
+    border: solid;
+    border-color: black;
+    border-width: 0px 1px 1px 0px;
+    display: inline;
+    float: left;
+}
+
+.chess-column.a {
+    border-left-width: 1px;
+}
+
+#chess-row-8 {
+    border: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;    
+}
+
+.chess-row.odd>.chess-column.odd,
+.chess-row.even>.chess-column.even {
+    background-color: grey;
+}
