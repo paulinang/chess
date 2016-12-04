@@ -7,8 +7,20 @@
   <body>
     <script src="https://code.jquery.com/jquery.js"></script>
     <div id='play-field'>
+      <div id='column-names'>
+          <span></span>
+          <span>a</span>
+          <span>b</span>
+          <span>c</span>
+          <span>d</span>
+          <span>e</span>
+          <span>f</span>
+          <span>g</span>
+          <span>h</span>
+      </div>
       <div id='chessboard'>
         <div class='row chess-row even' id='chess-row-8' data-chess-row='8'>
+          <div class='row-name'>8</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -19,6 +31,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>
         </div>
         <div class='row chess-row odd' data-chess-row='7'>
+          <div class='row-name'>7</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -29,6 +42,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
         <div class='row chess-row even' data-chess-row='6'>
+          <div class='row-name'>6</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -39,6 +53,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
         <div class='row chess-row odd' data-chess-row='5'>
+          <div class='row-name'>5</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -49,6 +64,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>
         </div>
         <div class='row chess-row even' data-chess-row='4'>
+          <div class='row-name'>4</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -59,6 +75,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
         <div class='row chess-row odd' data-chess-row='3'>
+          <div class='row-name'>3</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -69,6 +86,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
         <div class='row chess-row even' data-chess-row='2'>
+          <div class='row-name'>2</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>
@@ -79,6 +97,7 @@
           <div class='square chess-column h even' data-chess-column='h'></div>      
         </div>
         <div class='row chess-row 1 odd' data-chess-row='1'>
+          <div class='square row-name'>1</div>
           <div class='square chess-column a odd' data-chess-column='a'></div>
           <div class='square chess-column b even' data-chess-column='b'></div>
           <div class='square chess-column c odd' data-chess-column='c'></div>

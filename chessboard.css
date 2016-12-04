@@ -1,21 +1,39 @@
 #play-field {
-    width: 80vw;
-    height: 80vw;
-    margin: 50px;
+    margin: 100px;
 }
+
+
 #chessboard {
-    width: 64vw;
+    width: 72vw;
     height: 64vw;
     margin: 0px;
 }
 
-.chess-row {
-    width: 64vw;
+.chess-row,
+#column-names {
+    width: 72vw;
     height: 8vw;
     margin: 0px;
 }
 
-.square {
+#column-names>span,
+.row-name {
+    width: 8vw;
+    height: 8vw;
+    line-height: 10vw;
+    font-size: 64px;
+    float: left;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    border-width: 0px 1px 0px 0px;
+}
+
+.row-name {
+    border-width: 0px 1px 1px 0px;
+}
+
+.square{
     width: 8vw;
     height: 8vw;
     border: solid;
@@ -23,10 +41,6 @@
     border-width: 0px 1px 1px 0px;
     display: inline;
     float: left;
-}
-
-.chess-column.a {
-    border-left-width: 1px;
 }
 
 #chess-row-8 {
