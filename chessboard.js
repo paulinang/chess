@@ -10,7 +10,7 @@ $('.square').on('click', function(evt) {
   });
 
 function highlightSquare(square) {
-  if (square.id == '') {
+  if (square.id === '') {
     if (selectedSquare) {
       selectedSquare.id = '';
     }
@@ -29,7 +29,7 @@ var chessMoves = {
     x: [0],
     y: [1]
   }
-}
+};
 
 function showPaths(square) {
   var chessPiece = square.dataset.chessPiece;
@@ -39,7 +39,7 @@ function showPaths(square) {
   };
   var possibleCoordinates = [coordinates.x + 0, coordinates.y + 1];
   var possibleSquares = $('#row-' + possibleCoordinates[1] + '>.' + columns[possibleCoordinates[0]]);
-  debugger;
+  // debugger;
 
 }
 
